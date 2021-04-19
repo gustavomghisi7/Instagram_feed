@@ -14,9 +14,10 @@ class Lista extends Component {
     render(){
         return(
             <View style={styles.areaFeed}>
+
                 <View style={styles.viewPerfil}>
                     <Image
-                        source={{uri: this.state.feed.imgPerfil}}
+                        source={{uri: this.state.feed.imgperfil}}
                         style={styles.fotoPerfil}
                     />
                     <Text 
@@ -31,18 +32,33 @@ class Lista extends Component {
                 />
 
                 <View style={styles.areaBtn}>
-                    <TouchableOpacity>
+                    <TouchableOpacity style={styles.espacamento1}>
                         <Image
                             source={require('../img/like.png')}
-                            styles={styles.iconelike}
+                            style={styles.iconelike}
                         />
                     </TouchableOpacity>
-                    <TouchableOpacity>
+                    <TouchableOpacity style={styles.espacamento2}>
+                        <Image
+                            source={require('../img/comment.png')}
+                            style={styles.iconecomment}
+                        />
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.espacamento2}>
                         <Image
                             source={require('../img/send.png')}
-                            styles={styles.iconelike}
+                            style={styles.iconesend}
                         />
-                    </TouchableOpacity>
+                    </TouchableOpacity>      
+                </View>
+
+                <View style={styles.viewRodape}>
+                    <Text style={styles.nomeRodape}>
+                        {this.state.feed.nome}
+                    </Text>
+                    <Text style={styles.descRodape}>
+                        {this.state.feed.descricao}
+                    </Text>
                 </View>
                 
             </View>
@@ -55,25 +71,67 @@ const styles = StyleSheet.create({
 
     },
     nomeUsuario:{
-        fontSize: 22,
+        fontSize: 16,
         textAlign: 'left',
-        color: '#000000'
+        color: '#000000',
+        paddingLeft: 5,
     },
     fotoPerfil:{
-        width: 50,
-        height: 50,
+        width: 35,
+        height: 35,
         borderRadius: 25,
     },
     fotoPublicacao:{
         flex: 1,
-        height: 400,
+        height: 450,
         alignItems: 'center',
     },
     viewPerfil:{
         flexDirection: 'row',
         flex: 1,
         alignItems: 'center',
-        padding: 8,
+        padding: 10,
+    },
+    areaBtn:{
+       flexDirection: 'row',
+       padding: 5,
+    },
+    iconelike:{
+        width: 22,
+        height: 22,
+    },
+    iconecomment:{
+        width: 22,
+        height: 22,
+    },
+    iconesend:{
+        width: 22,
+        height: 20,
+    },
+    espacamento1:{
+        paddingLeft: 12,
+        paddingTop: 10,
+    },
+    espacamento2:{
+        paddingTop: 10,
+        paddingLeft: 15,
+    },
+    viewRodape:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingTop: 5,
+        paddingBottom: 10,
+    },
+    descRodape:{
+        paddingLeft: 5,
+        fontSize: 15,
+        color: '#000'
+    },
+    nomeRodape:{
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#000',
+        paddingLeft: 7
     }
 });
 

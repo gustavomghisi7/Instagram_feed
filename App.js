@@ -9,41 +9,41 @@ class App extends Component {
             feed: [
                {
                    id: '1',
-                   nome: 'Lucas Silva',
+                   nome: 'lucas_silva',
                    descricao: 'Mais um dia de muitos bugs :)',
-                   imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
+                   imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
                    imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png',
                    likeada: false, likers: 30
                },
                {
                     id: '2',
-                    nome: 'Matheus da Rosa',
+                    nome: 'rosamath',
                     descricao: 'Isso sim é ser raiz!!',
-                    imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
+                    imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto2.png',
                     likeada: false, likers: 20
                 },
                 {
                     id: '3',
-                    nome: 'José Augusto',
+                    nome: 'zeaugusto157',
                     descricao: 'Bora trabalhar hehe',
-                    imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png',
+                    imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto3.png',
                     likeada: false, likers: 15
                 },
                 {
                     id: '4',
-                    nome: 'Gustavo Henrique',
+                    nome: 'gustavo_henrique',
                     descricao: 'Isso sim que é T.I',
-                    imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
+                    imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto4.png',
                     likeada: false, likers: 5
                 },
                 {
                     id: '5',
-                    nome: 'Guilherme Martins',
+                    nome: 'gui_martins77',
                     descricao: 'Isso sim que é T.I',
-                    imgPerfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
+                    imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto5.png',
                     likeada: false, likers: 32
                 }, 
