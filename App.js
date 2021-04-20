@@ -13,7 +13,8 @@ class App extends Component {
                    descricao: 'Mais um dia de muitos bugs :)',
                    imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
                    imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto1.png',
-                   likeada: false, likers: 30
+                   likeada: false,
+                   likers: 0
                },
                {
                     id: '2',
@@ -21,15 +22,17 @@ class App extends Component {
                     descricao: 'Isso sim é ser raiz!!',
                     imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto2.png',
-                    likeada: false, likers: 20
+                    likeada: false,
+                    likers: 45
                 },
                 {
                     id: '3',
-                    nome: 'zeaugusto157',
+                    nome: 'zeaugusto17',
                     descricao: 'Bora trabalhar hehe',
                     imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil3.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto3.png',
-                    likeada: false, likers: 15
+                    likeada: false,
+                    likers: 76
                 },
                 {
                     id: '4',
@@ -37,15 +40,17 @@ class App extends Component {
                     descricao: 'Isso sim que é T.I',
                     imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil1.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto4.png',
-                    likeada: false, likers: 5
+                    likeada: true,
+                    likers: 45
                 },
                 {
                     id: '5',
-                    nome: 'gui_martins77',
+                    nome: 'gui_martins',
                     descricao: 'Isso sim que é T.I',
                     imgperfil: 'https://sujeitoprogramador.com/instareact/fotoPerfil2.png',
                     imgPublicacao: 'https://sujeitoprogramador.com/instareact/foto5.png',
-                    likeada: false, likers: 32
+                    likeada: false,
+                    likers: 34
                 }, 
             ]
         };
